@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - Order Success</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">🛒 TechStore</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <a href="cart.html" class="cart-icon">
+                        🛒 Cart
+                        <span class="cart-count">0</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="success-message">
+            <div class="success-icon">✅</div>
+            <h1>Order Successful!</h1>
+            <p style="font-size: 1.2rem; color: #666; margin-bottom: 2rem;">
+                Thank you for your purchase. Your order has been confirmed!
+            </p>
+            <p style="color: #666; margin-bottom: 2rem;">
+                Order ID: <strong id="orderId"></strong>
+            </p>
+            <a href="index.html" class="btn btn-primary">Continue Shopping</a>
+        </div>
+    </div>
+
+    <script src="cart-functions.js"></script>
+    <script src="success.js"></script>
+</body>
+</html>
